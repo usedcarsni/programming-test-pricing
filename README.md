@@ -9,7 +9,7 @@ You will be submitting your project via GitHub. Please configure your project ap
 
 ### Overview
 
-Our website allows car owners to privately list one-off adverts for a car that they are selling. Adverts are charged depending on a number of conditions. We require a small PHP (micro)service to calculate the cost of privately listing a vehicle on the website for sale. Note that a listing expires after 2 weeks.
+Our website allows car owners to privately list one-off adverts for a car that they are selling. Adverts are charged depending on a number of conditions. We require a small PHP (micro)service to calculate the cost of privately listing a vehicle on the website for sale. You can assume it is part of a REST API. Note that a listing expires after 2 weeks.
 
 ### How the system should work
 
@@ -31,6 +31,7 @@ We have provided examples of the request JSON that your service should expect. Y
 -	An ideal solution would be easily extendable if further rules were required in the future. Please allude to this in your code and documentation.
 -	Basic performance should be considered, but do not worry about adding a caching layer.
 -	Unit tests are not a requirement of this task but would be welcomed if included.
+-   Authentication is not a requirement of this task, but would be welcomed if included.
 
 ### Submission
 
